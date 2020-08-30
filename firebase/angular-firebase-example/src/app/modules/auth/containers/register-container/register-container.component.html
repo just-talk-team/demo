@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+	<span>Registro</span>
+</mat-toolbar>
+<br>
+<form [formGroup]="form">
+	<mat-form-field appearance="outline">
+		<mat-label>Email</mat-label>
+		<input type="text" matInput formControlName="email">
+	</mat-form-field>
+	<br>
+	<mat-form-field appearance="outline">
+		<mat-label>Password</mat-label>
+		<input type="password" matInput formControlName="password">
+	</mat-form-field>
+	<br>
+	<mat-slide-toggle formControlName="isAdmin">Es Admin?</mat-slide-toggle>
+	<br>
+	<mat-slide-toggle formControlName="isWriter">Es Escritor?</mat-slide-toggle>
+	<br>
+	<mat-slide-toggle formControlName="isReader">Es Lector?</mat-slide-toggle>
+	<br>
+	<button mat-button mat-flat-button color="primary" (click)="register()">Register</button>
+	<button mat-button mat-flat-button color="accent" [routerLink]="['/auth/login']">Login</button>
+</form>

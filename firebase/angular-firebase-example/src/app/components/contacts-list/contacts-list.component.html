@@ -1,0 +1,26 @@
+<h1>Lista de contactos</h1>
+
+<table>
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Nombre</th>
+			<th>Apellido</th>
+			<th>Avatar</th>
+			<th>Acciones</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr *ngFor="let contact of contacts">
+			<td>{{ contact.id }}</td>
+			<td>{{ contact.name }}</td>
+			<td>{{ contact.lastName }}</td>
+			<td><img src="{{ contact.imageUrl }}" alt="Avatar del Contacto" /></td>
+			<td>
+				<button (click)="editContact(contact)">Editar</button>
+				<button (click)="deleteContact(contact)">Eliminar</button>
+			</td>
+		</tr>
+	</tbody>
+</table>

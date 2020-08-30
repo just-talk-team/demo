@@ -1,0 +1,18 @@
+<form [formGroup]="form">
+	<label>Name</label>
+	<input type="text" formControlName="name" />
+
+	<br />
+
+	<label>Last Name</label>
+	<input type="text" formControlName="lastName" />
+
+	<br />
+
+	<label>Image Url</label>
+	<input type="text" formControlName="imageUrl" />
+
+	<br />
+
+	<button (click)="editContact()">Editar</button>
+</form>

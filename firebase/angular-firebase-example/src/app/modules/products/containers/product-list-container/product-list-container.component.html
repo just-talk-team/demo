@@ -1,0 +1,31 @@
+<table>
+	<thead>
+	<tr>
+		<th>ID</th>
+		<th>Name</th>
+		<th>Description</th>
+		<th>Price</th>
+		<th>Stock</th>
+		<th>UserId</th>
+		<th>Actions</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr *ngFor="let product of products; trackBy:trackByFn">
+		<td>{{ product.id }}</td>
+		<td>{{ product.name }}</td>
+		<td>{{ product.description }}</td>
+		<td>{{ product.price }}</td>
+		<td>{{ product.stock }}</td>
+		<td>{{ product.userId }}</td>
+		<td>
+			<button (click)="deleteProductById(product.id)">Delete</button>
+		</td>
+	</tr>
+	</tbody>
+</table>
+
+<app-add-product
+	(onCreate)="createProduct($event)"
+></app-add-product>

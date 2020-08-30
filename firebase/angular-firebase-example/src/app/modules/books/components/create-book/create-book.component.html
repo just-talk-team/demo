@@ -1,0 +1,28 @@
+<form [formGroup]="form">
+	<div class="row">
+		<div class="col-8">
+			<label>Title</label>
+		</div>
+
+		<div class="col-16">
+			<input type="text" formControlName="title">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-8">
+			<label>Description</label>
+		</div>
+		<div class="col-16">
+			<input type="text" formControlName="description">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-8"></div>
+		<div class="col-16">
+			<button (click)="addBook()">Registrar</button>
+		</div>
+	</div>
+
+</form>
