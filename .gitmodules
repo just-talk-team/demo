@@ -1,0 +1,6 @@
+[submodule "flutter-bloc-scratch"]
+	path = flutter-bloc-scratch
+	url = https://github.com/Josered30/flutter-bloc-scratch.git
+[submodule "flutter-base-tutorial"]
+	path = flutter-base-tutorial
+	url = https://github.com/Josered30/flutter-bloc-scratch.git
