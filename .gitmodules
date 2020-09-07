@@ -4,3 +4,6 @@
 [submodule "flutter-base-tutorial"]
 	path = flutter-base-tutorial
 	url = https://github.com/Josered30/flutter-bloc-scratch.git
+[submodule "flutter-bloc-library-demo"]
+	path = flutter-bloc-library-demo
+	url = https://github.com/Josered30/flutter-bloc-library-demo.git
