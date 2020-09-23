@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "141761387944",
+    "firebase_url": "https://flutter-firebase-test-55cad.firebaseio.com",
+    "project_id": "flutter-firebase-test-55cad",
+    "storage_bucket": "flutter-firebase-test-55cad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141761387944:android:4b44c802f8779aa810119d",
+        "android_client_info": {
+          "package_name": "com.firebase_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141761387944-4l7inl6tebda31v4l33qsrdufcug2vma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAibgnclTt5-yJnM0DynZdwEZGT8RvTz3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141761387944-4l7inl6tebda31v4l33qsrdufcug2vma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
